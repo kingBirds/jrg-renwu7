@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>task7-code1</title>
+</head>
+<body>
+<form action="jirengu.com/php" method="post" >
+  <label for="user-name">姓名：</label>
+  <input type="text" id="user-name" name="user-name" placeholder="用户名">
+  <br>
+  <label for="user-pwd">密码：</label>
+  <input type="password" id="user-pwd" name="user-pwd" placeholder="******">
+  <br>
+  <span>性别：</span>
+  <input type="radio" id="isman" name="user-sex" value="male" checked>
+  <label for="isman">男</label>  
+  <input type="radio" id="iswoman" name="user-sex" value="female">
+  <label for="iswoman">女</label>  
+  <br>
+  <span>取向：</span>
+  <input type="radio" id="man" name="like" value="male">
+  <label for="man">男</label>
+  <input type="radio" id="woman" name="like" value="female" checked>
+  <label for="woman">女</label>
+  <br>
+  <span >爱好：</span>
+  <input type="checkbox" id="dota" name="favorite" value="dota">
+  <label for="dota">dota</label>
+  <input type=checkbox id="trip" name="favorite" value="trip" checked>
+  <label for="trip">旅游</label>
+  <input type="checkbox" id="pet" name="favorite" value="pet" checked>
+  <label for="pet">宠物</label>
+  <br>
+  <label for="critic">评论:</label>
+  <textarea id="critic" rows="10" cols="30" placeholder="ddd">
+  </textarea>
+  <br>
+  <label for="my-car">我的car</label>
+  <select id="my-car" name=my-car>
+    <option value="萨博">萨博</option>
+    <option value="大众">大众</option>
+    <option value="沃尔沃">沃尔沃</option>
+    <option value="奥迪">奥迪</option>
+  </selcet>
+  <input type="submit" value="提交">
+  <input type="reset" value="重置">
+</form>
+</body>
+</html>
