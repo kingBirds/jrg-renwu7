@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>task9-code1</title>
+<style>
+*{margin: 0;padding: 0;}
+.btn{
+  display: inline-block;
+  width: 60px;
+  height:30px;
+  line-height: 30px;/*行内垂直居中*/
+  text-align: center;
+  padding-left: 20px;
+  font-size: 1rem;
+  background: url(C:/Users/cathy/Desktop/素材/result.png);
+  background-repeat: no-repeat;
+  background-size: 140px 55px;/*缩小背景图*/
+  border:1px solid transparent;/*边框透明*/
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn1{
+  background-position: 0 0;/*定位背景图*/
+}
+.btn1:hover{
+    background-position: 0 -30px;
+    color:#9966CC;}
+.btn2{
+  background-position: -56px 2px; 
+}
+.btn2:hover{
+    background-position: -60px -30px;
+    color:#9966CC;
+}
+.btn3{
+  background-position: -115px 0px; 
+}
+.btn3:hover{
+   background-position: -115px -27px;
+    color:#9966CC;
+}
+</style>
+</head>
+<body>
+  <button class="btn btn1">开始</button>
+  <button class="btn btn2">前进</button>
+  <button class="btn btn3">停止</button>
+</body>
+</html>
