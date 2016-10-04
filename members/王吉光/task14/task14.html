@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task14</title>
+	<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/task14.css">
+	<style type="text/css">
+		html,body,ul,h1{
+		padding: 0;
+		margin: 0;
+		font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	}
+	a{
+		display: inline-block;
+		text-decoration: none;
+	}
+	li{
+		list-style: none;
+		
+	}
+	#header{
+			background:url(http://book.jirengu.com/jirengu-inc/task/%E4%BB%BB%E5%8A%A119-%E5%AE%9E%E6%88%983/img/bg.jpg) 0 0 no-repeat;
+			-webkit-background-size: auto 680px;
+			background-size: auto 680px;
+	}
+	.layout	{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.header-content{
+		text-align: center;
+		padding-top: 280px;
+		padding-bottom: 280px;
+	}
+	.header-content a{
+		padding: 20px 50px;
+		background: rgba(100,100,100, 0.5);
+		color: #fff;
+		font-weight: bold;
+	}
+	.header-content a:hover{
+		background: rgba(100,100,100, 0.8);
+	}
+	#main .wrap{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	#main .btn1{
+		color: #117cb0;
+	}
+	#main .btn1:hover{
+		text-decoration: underline;
+	}
+	#main .services{
+		background: #117cb0;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 40px;
+		color: #fff;
+	}
+	#main .services hr{
+		max-width: 100px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border: 2px solid #fff;
+	}
+	.services-item:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.services-item li{
+		width:180px;
+		padding:10px 20px 50px 20px;
+		margin: 10px;
+		display: inline-block;
+		float: left;
+	}
+	.services-item .btn{
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #fff;
+		color: #000;
+	}
+	.services-item a:hover{
+		background-color: #ddd;
+	}
+	.text-chief{
+		background:url(http://book.jirengu.com/jirengu-inc/task/%E4%BB%BB%E5%8A%A119-%E5%AE%9E%E6%88%983/img/callout.jpg) 0 0 no-repeat;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 200px;
+		color: #fff;
+		font-size: 2rem;
+	}
+	.our-work{
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#main .our-work hr{
+		max-width: 80px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.work-pic:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.work-pic li{
+		display: inline;
+		float: left;
+		margin: 15px;
+	}
+	.work-pic li:nth-child(odd){
+		margin-left:0;
+	}
+	.work-pic li:nth-child(even){
+		margin-right:0;
+	}
+	.work-pic img{
+		width: 465px;
+	}
+	.our-work .work-btn{
+		display: inline-block;
+		padding:10px 20px;
+		background-color: #ddd;
+		color: #000;
+	}
+	.work-btn:hover{
+		background-color: #666;
+		color: #eee;
+	}
+	.resist a{
+		display: inline-block;
+		width: 90px;
+		padding:10px 20px;
+		margin: 5px;
+	}
+	.btn-left{
+		background-color: #fff;
+		color: #000;
+	}
+	.btn-left:hover{
+		background-color: #ddd;
+	}
+	.btn-right{
+		background-color: rgba(200,200,200,0.8);
+		color: #fff;
+	}
+	.btn-right:hover{
+		background-color: #555;
+	}
+	#footer{
+		padding-top:80px;
+		padding-bottom: 80px;
+		text-align: center; 
+	}
+	#footer .icon-link li{
+		display: inline-block;
+		padding: 10px;
+		bottom: 10px；
+	}
+	#footer .icon-link a{
+		color: #117cb0;
+	}
+	#footer .icon-link a:hover{
+		color: #235;
+	}
+	#footer hr{
+		max-width: 100px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border:1px solid #ccc;
+	}
+	#footer span{
+		font-size: 0.8rem;
+	}
+	#footer .btn1{
+		color: #117cb0;
+	}
+	#footer .btn1:hover{
+		text-decoration: underline;
+	}
+	</style>
+</head>
+<body>
+<div id="header">
+	<div class="layout">
+		<div class="header-content">
+			<h1>Start Bootstrap</h1>
+			<p>Free Bootstrap Themes & Templates</p>
+			<a href="#">Find out More</a>
+		</div>
+	</div>
+</div>
+<div id="main">
+	<div class="wrap layout">
+		<h4>Stylis Portfolio is the perfect theme for your next project!</h4>
+		<p>This theme features some wonderful photography courtesy of <a href="#" class="btn1">Death to the Stock Photo.</a></p>
+	</div>
+	<div class="services">
+		<div class="layout">
+			<h1> Our Services</h1>
+			<hr>
+			<ul class="services-item">
+				<li><i class="fa fa-cloud-download  fa-5x" aria-hidden="true"></i></span><h3>Services Name</h3><p>Lorenm ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn">Learn More</a></li>
+				<li><i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i><h3>Services Name</h3><p>Lorenm ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn">Learn More</a></li>
+				<li><i class="fa fa-trophy fa-5x" aria-hidden="true"></i><h3>Services Name</h3><p>Lorenm ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn">Learn More</a></li>
+				<li><i class="fa fa-leaf fa-5x" aria-hidden="true"></i><h3>Services Name</h3><p>Lorenm ipsum dolor sit amet consectetur adipisicing elit.</p><a href="#" class="btn">Learn More</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="text-chief">
+		<div class="layout">
+			<h1>Vertically Centered Text</h1>
+		</div>
+	</div>
+	<div class="our-work layout">
+		<h1>Our work</h1>
+		<hr>
+		<div class="item-pic">
+			<ul  class="work-pic">
+				<li><a href="#"><img src="http://static.oschina.net/uploads/img/201203/09124005_HudK.png" alt="zuoping"></a></li>
+				<li><a href="#"><img src="http://static.oschina.net/uploads/img/201203/09124005_HudK.png" alt="zuoping"></a></li>
+				<li><a href="#"><img src="http://static.oschina.net/uploads/img/201203/09124005_HudK.png" alt="zuoping"></a></li>
+				<li><a href="#"><img src="http://static.oschina.net/uploads/img/201203/09124005_HudK.png" alt="zuoping"></a></li>
+			</ul>
+			<a href="#" class="work-btn">View More Items</a>
+		</div>
+	</div>
+	<div class="resist services">
+		<div class="layout">
+		<h3>The buttoms below are impossible to resist</h5>
+		<a href="#" class="btn-left">Click Me</a><a href="#" class="btn-right">Look at Me!</a>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="layout">
+		<h3>Start Bootstrap</h3>
+		<p>
+			<span>2481 Melrose Place</span>
+		<br>
+			<span>Beverly Hills CA 90200</span>
+		</p>
+		<p>
+			<span><i class="fa fa-phone" aria-hidden="true"></i>(123)456-7890</span>
+			<br>
+			<span><i class="fa fa-envelope" aria-hidden="true"></i><a href="#" class="btn1">name@example.com</a></span>
+		</p>
+		<ul class="icon-link">
+			<li><a href="#" class="fa fa-github fa-3x" aria-hidden="true"></a></li>
+			<li><a href="#" class="fa fa-twitter fa-3x" aria-hidden="true"></a></li>
+			<li><a href="#" class="fa fa-coffee fa-3x" aria-hidden="true"></a></li>
+		</ul>
+		<hr>
+		<p><span>Copyright &copy; Your Website 2014</span></p>
+	</div>
+</div>
+</body>
+</html>
