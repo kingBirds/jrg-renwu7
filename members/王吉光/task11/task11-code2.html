@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task10-code1</title>
+	<style>
+#header,#footer{
+  background-color: #f00;
+  height:40px;
+  width:100%;
+}
+#content{
+  width:100%;
+  overflow:hidden;
+}
+.aside{
+  background-color: #ddf;
+  width:33%;
+  min-height:1rem;
+  float:left;
+}
+.main{
+  background-color: #fbb;
+  width:67%;
+  float:right;
+}
+.content:after{
+  content:"";
+  display:blcok;
+  clear:both;
+}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+  <div id="content">
+    <div class="aside"></div>
+    <div class="main">我是main我是main 
+            我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main..我是main 
+            我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main..我是main 
+            我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main..我是main 
+            我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main..我是main 
+            我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main 我是main..</div>
+  </div>
+  <div id="footer">footer</div>
+</body>
+</html>

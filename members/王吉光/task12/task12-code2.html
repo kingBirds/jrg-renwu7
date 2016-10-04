@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task12-code2</title>
+	<style>
+header,footer{
+  height:30px;
+  width:100%;
+  background-color:#ccc;
+  clear:both;
+}
+.content{
+  padding:0 200px;
+  clear:both;
+}
+.main{
+  height:400px;
+  width:100%;
+  background-color:#f00;
+  float:left;
+}
+.aside-left{
+  width:200px;
+  height:400px;
+  background-color:#0f0;
+  float:left;
+  margin-left:-100%;
+  position:relative;
+  left:-200px;
+}
+.aside-right{
+  width:200px;
+  height:400px;
+  background-color: #00f;
+  float:left;
+  margin-left:-200px;
+  position:relative;
+  left:200px;
+}
+	</style>
+</head>
+<body>
+    <header>
+      头部
+  </header>
+  <div class="content">
+    <div class="main">
+      中间主题内容自适应
+    </div>
+    <div class="aside-left">
+      左侧边栏，固定宽度200px
+    </div>
+    <div class="aside-right">  
+      右侧边栏，固定宽度200px
+    </div>
+  </div>
+  <footer>  
+    尾部
+  </footer>
+</body>
+</html>
